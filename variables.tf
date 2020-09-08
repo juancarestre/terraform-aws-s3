@@ -3,6 +3,10 @@ variable "name" {
   default     = "App"
 }
 
+variable "aws_region" {
+  description = "aws region"
+}
+
 variable "tags" {
   type        = map
   default     = {}

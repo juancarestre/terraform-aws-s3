@@ -97,6 +97,7 @@ variable "acl" {
 variable "website" {
   description = "Website settings"
   default     = []
+  type = list
 }
 
 variable "versioning_enabled" {
